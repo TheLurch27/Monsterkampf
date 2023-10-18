@@ -52,16 +52,24 @@ namespace Monsterkampf_Kevin
                 }
             } while (choice1 == choice2);
 
-            Console.WriteLine("Enter the attributes for Monster 1 (HP, AP, DP, S): ");
+            Console.WriteLine("Enter the attributes for Monster 1 (Life points (HP), Attack strength (AP), Defense points (DP), Speed (S)): ");
+            Console.Write("HP = ");
             float hp1 = float.Parse(Console.ReadLine());
+            Console.Write("AP = ");
             float ap1 = float.Parse(Console.ReadLine());
+            Console.Write("DP = ");
             float dp1 = float.Parse(Console.ReadLine());
+            Console.Write("S = ");
             float s1 = float.Parse(Console.ReadLine());
 
-            Console.WriteLine("Enter the attributes for Monster 2 (HP, AP, DP, S): ");
+            Console.WriteLine("Enter the attributes for Monster 2 (Life points (HP), Attack strength (AP), Defense points (DP), Speed (S)): ");
+            Console.Write("HP = ");
             float hp2 = float.Parse(Console.ReadLine());
+            Console.Write("AP = ");
             float ap2 = float.Parse(Console.ReadLine());
+            Console.Write("DP = ");
             float dp2 = float.Parse(Console.ReadLine());
+            Console.Write("S = ");
             float s2 = float.Parse(Console.ReadLine());
 
             Monster monster1 = null;
